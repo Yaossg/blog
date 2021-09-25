@@ -30,6 +30,6 @@ jobs:
         with:
           personal_token: ${{ secrets.REPO }}
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: master
           destination_dir: ./
           external_repository: Yaossg/yaossg.github.io
