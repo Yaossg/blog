@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   pages:
@@ -30,6 +30,6 @@ jobs:
         with:
           personal_token: ${{ secrets.REPO }}
           publish_dir: ./public
-          publish_branch: master
+          publish_branch: main
           destination_dir: ./
           external_repository: Yaossg/yaossg.github.io
