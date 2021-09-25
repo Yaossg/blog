@@ -10,7 +10,8 @@ language: zh
 timezone: 'Asia/Shanghai'
 
 # URL
-url: http://yaossg.com
+url: http://yaossg.com/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

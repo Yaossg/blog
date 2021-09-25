@@ -31,5 +31,5 @@ jobs:
           personal_token: ${{ secrets.REPO }}
           publish_dir: ./public
           publish_branch: master
-          destination_dir: ./
+          destination_dir: ./blog
           external_repository: Yaossg/yaossg.github.io
