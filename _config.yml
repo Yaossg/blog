@@ -12,7 +12,7 @@ timezone: 'Asia/Shanghai'
 # URL
 url: http://yaossg.com/blog/
 root: /blog/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true 
