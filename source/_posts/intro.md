@@ -2,7 +2,7 @@
 title: Intro
 date: 2021-09-25 18:15:21
 sticky: 1
-tags:
+tags: intro
 ---
 
 > 路漫漫其修远兮，吾将上下而求索
