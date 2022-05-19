@@ -15,4 +15,5 @@ tags: intro
 
 很高兴遇见你。
 
-> Would you like some Sausages?
+- [香肠的个人主页](https://yaossg.com/)
+

@@ -1,7 +1,7 @@
 ---
 title: biome
 date: 2022-2-7 16:23:28
-tags: worldgen
+tags: worldgen minecraft
 ---
 
 # 再析世界生成：生物群系

@@ -1,7 +1,7 @@
 ---
 title: 1.13-worldgen
 date: 2019-2-18 21:27:00
-tags: worldgen
+tags: worldgen minecraft
 ---
 
 # 浅析 1.13 世界生成
