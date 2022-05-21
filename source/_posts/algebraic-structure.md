@@ -2,7 +2,7 @@
 title: algebraic-structure
 date: 2022-05-18 20:12:12
 tags: math
-
+description: 代数结构
 mathjax: true
 ---
 
