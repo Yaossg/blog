@@ -1,12 +1,11 @@
 ---
-title: algebraic-structure
+title: 代数结构：群、环、域
 date: 2022-05-18 20:12:12
 tags: math
-description: 代数结构
+description: <br>
+
 mathjax: true
 ---
-
-# 代数结构
 
 ## 群
 

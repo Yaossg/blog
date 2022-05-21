@@ -1,5 +1,5 @@
 ---
-title: Intro
+title: Welcome to Yaossg's Blog
 date: 2021-09-25 18:15:21
 sticky: 1
 tags: intro

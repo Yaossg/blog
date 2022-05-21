@@ -1,10 +1,10 @@
 ---
-title: 1.13-worldgen
+title: 浅析 1.13 世界生成
 date: 2019-2-18 21:27:00
-tags: worldgen minecraft
+tags: 
+  - worldgen
+  - minecraft
 ---
-
-# 浅析 1.13 世界生成
 
 ## 摘要
 

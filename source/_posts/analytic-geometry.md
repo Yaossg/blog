@@ -1,12 +1,11 @@
 ---
-title: analytic-geometry
-date: 2022-05-18 16:25:45
+title: 高中圆锥曲线结论
+date: 2021-06-06 16:25:45
 tags: math
-description: 高中圆锥曲线结论
+description: <br>
+
 mathjax: true
 ---
-
-# 高中圆锥曲线结论
 
 若椭圆（$b^2>0$）或双曲线（$b^2<0$）
 $$

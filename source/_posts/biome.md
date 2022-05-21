@@ -1,10 +1,10 @@
 ---
-title: biome
+title: 再析世界生成：生物群系
 date: 2022-2-7 16:23:28
-tags: worldgen minecraft
+tags: 
+  - worldgen
+  - minecraft
 ---
-
-# 再析世界生成：生物群系
 
 ![](http://yaossg.com/biome/resources/icon.png)
 

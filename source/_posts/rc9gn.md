@@ -1,11 +1,11 @@
 ---
-title: rc9gn
+title: RC9GN 第一季忍者指南语录
 date: 2019-05-12 12:31:30
-tags: rc9gn translate
-description: 第一季忍者指南语录
+tags: 
+  - rc9gn
+  - translate
+description: <br>
 ---
-
-# 第一季忍者指南语录
 
 ## 说明
 
