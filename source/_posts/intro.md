@@ -9,4 +9,20 @@ tags: intro
 >
 > ——屈原《离骚》
 
-你好啊，旅行者。这里是香肠。
+<!--more-->
+
+## Yaossg
+
+
+### Preference
+
+- an MCer as well as an MCModder, a Terrarian
+- a fan of PVZ Series and Angry Birds Series
+- a fan of some Musicals and Cartoon Series
+- Programming mainly in C/C++ Java Kotlin
+
+### College Student
+
+- Born in Beibei, Chongqing, China
+- Freshman in School of Information and Communication Engineering, UESTC
+- Sophomore in School of Computer Science and Engineering (School of Cybersecurity), UESTC

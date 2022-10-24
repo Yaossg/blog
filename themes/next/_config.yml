@@ -180,6 +180,8 @@ site_state: true
 social:
   GitHub: https://github.com/Yaossg || github
   Bilibili: https://space.bilibili.com/282144386 || bilibili
+  Doc: https://yaossg.com/doc || book
+  Site: https://yaossg.com/site || book
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
