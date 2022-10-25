@@ -11,7 +11,7 @@ mathjax: true
 
 ### 半群
 
-$G\neq\varnothing$ 且对于二元运算符 $\cdot$ 满足：
+若 $G\neq\varnothing$ 且对于二元运算符 $\cdot$ 满足：
 
 - $\forall a,b \in G, a \cdot b\in G$
 - $\forall a,b,c\in G, (a \cdot b)\cdot c=a\cdot(b\cdot c)$
@@ -20,25 +20,33 @@ $G\neq\varnothing$ 且对于二元运算符 $\cdot$ 满足：
 
 ### 单位元
 
-$\forall a\in G, a\cdot e=e\cdot a=a$
+若 $\forall a\in G, a\cdot e=e\cdot a=a$
 
 则 $e$ 是单位元或幺元
 
 ### 幺半群
 
-$G$ 是群且 $e\in G$，则 $G$ 是幺半群
+若 $G$ 是半群，且 $e\in G$
+
+则 $G$ 是幺半群
 
 ### 逆元
 
-$a\in G, \exists b\in G\text{ s.t. } a\cdot b=b\cdot a=e$ 则 $a$ $b$ 互为逆元
+若 $a,b\in G\land a\cdot b=b\cdot a=e$
+
+则 $a$ $b$ 互为逆元
 
 ### 群
 
-$G$ 是幺半群，$\forall a \in G, \exists b\in G \text{ s.t. } a\cdot b=e$，则 $G$ 是群
+若 $G$ 是幺半群，且 $\forall a \in G, \exists b\in G \text{ s.t. } a\cdot b=e$
+
+则 $G$ 是群
 
 ### Abel 群
 
-$G$ 是群，$\forall a,b \in G, a \cdot b = b \cdot a$，则 $G$ 是 Abel 群或交换群
+若 $G$ 是群，且 $\forall a,b \in G, a \cdot b = b \cdot a$
+
+则 $G$ 是 Abel 群或交换群
 
 ## 环
 
@@ -59,28 +67,42 @@ $G$ 是群，$\forall a,b \in G, a \cdot b = b \cdot a$，则 $G$ 是 Abel 群�
 
 ### 零因子
 
-$a\in R,\exists b \in R\land b \neq0\text{ s.t. } a\cdot b=0(b\cdot a=0)$，则称 $a$ 是左（右）零因子
+若 $a\in R,\exists b \in R\land b \neq0\text{ s.t. } a\cdot b=0(b\cdot a=0)$
+
+则称 $a$ 是左（右）零因子
 
 ### 整环
 
-$R$ 至少有两个元素，且不含非零零因子，则称 $R$ 是整环
+若 $R$ 至少有两个元素，且不含非零零因子
+
+则称 $R$ 是整环
 
 ### 单位元
 
-$R$ 是环，$1 \in R, \forall a\in R \text{ s.t. } 1\cdot a=a\cdot 1=a$，则称 $1$ 是 $R$ 的单位元或幺元，则称 $R$ 为由单位元的环
+若 $R$ 是环，且 $1 \in R, \forall a\in R \text{ s.t. } 1\cdot a=a\cdot 1=a$
 
-### 逆元
+则称 $1$ 是 $R$ 的单位元或幺元，$R$ 为有单位元的环
 
-$a\in R, \exists b\in R\text{ s.t. } a\cdot b=b\cdot a=1$ 则 $a$ $b$ 互为逆元
+### 乘法逆元
+
+若 $a,b\in R\land a\cdot b=b\cdot a=1$ 
+
+则 $a$ $b$ 互为乘法逆元
 
 ### 除环
 
-$R$ 是整环，$\forall a \in R\land a \neq0, \exists b\in R\text{ s.t. } a\cdot b=1$，则 $R$ 是除环
+若 $R$ 是整环，且 $\forall a \in R\land a \neq0, \exists b\in R\text{ s.t. } a\cdot b=1$
+
+则 $R$ 是除环
 
 ### 交换环
 
-$R$ 是环，$\forall a,b \in G, a \cdot b = b \cdot a$，则 $R$ 是交换环
+若 $R$ 是环，且 $\forall a,b \in G, a \cdot b = b \cdot a$
+
+则 $R$ 是交换环
 
 ## 域
 
-$F$ 是交换除环，则 $F$ 是域
+若 $F$ 是交换除环
+
+则 $F$ 是域
