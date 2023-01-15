@@ -16,12 +16,9 @@ std::vector<std::string_view> splitLines(std::string_view view) {
     std::vector<std::string_view> lines;
     const char *p = view.begin(), *q = p, *r = view.end();
     while (q != r) {
-        switch (*q++) {
-            case '\n': {
-                lines.emplace_back(p, q - 1);
-                p = q;
-                break;
-            }
+        if (*q++ == '\n') {
+            lines.emplace_back(p, q - 1);
+            p = q;
         }
     }
     if (p != q) lines.emplace_back(p, q);
@@ -184,7 +181,7 @@ OOO
 *** *** *** *** *** *** *** *** OOO OOO
 ```
 
-这太有规律了！每次乱码的 `string_view` 数量都翻了一倍，这暗合了某个容器的某个特性。是的，`vector`。于是我们对前面的 `Source` 作出一点修改：
+这太有规律了！每次 `append` 乱码的 `string_view` 数量要么保持不变，要么就翻一倍，这似乎暗合了某个容器的某个特性。是的，`vector`。于是我们对前面的 `Source` 作出一点修改：
 
 ```
 struct Source {
